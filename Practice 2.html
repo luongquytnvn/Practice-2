@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // Date
+    let myDate = new Date(1993, 11, 29);
+    let today = new Date();
+    a = today.getFullYear() - myDate.getFullYear();
+    console.log('Toi da song ' + a + ' nam');
+    b = today.getFullYear() * 12 + 10 - myDate.getFullYear() * 12 - 11;
+    console.log('Toi da song ' + b + ' thang');
+    // Math
+    console.log(Math.floor(Math.random()*10));
+    console.log(Math.floor(Math.random()*100*4));
+    console.log(Math.min(5,7,2,9));
+    console.log(Math.pow(53,2));
+    console.log(Math.PI*5*5);
+    // String
+    let str = "Tôi yêu ngôn ngữ lập trình Javascript";
+    searchExp = /a/g;
+     let result = str.match(searchExp.length);
+     console.log(result);
+     let q = str.split(' ');
+     console.log(q);
+     console.log(q.length);
+     console.log(str.replace('Javascript','Typescript'));
+</script>
+</body>
+</html>
